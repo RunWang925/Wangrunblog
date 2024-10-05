@@ -1,0 +1,1105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Markdown入门使用教程</title>
+    <url>/run/37700/</url>
+    <content><![CDATA[<h1 id="Markdown入门教程，小白从零学习"><a href="#Markdown入门教程，小白从零学习" class="headerlink" title="Markdown入门教程，小白从零学习"></a><center><font color="blue">Markdown入门教程，小白从零学习</font></h1><p>Hexo通过cloudflare已经搭建成功了，也可以正常访问了。Hexo文章需要使用Markdown来书写，我以前没有接触过任何的编程语言，这对于我来是还是比较困难的。这个文档比较乱长，可以直接搜索关键字进行搜索。<br><font color="red">测试部分效果无法在网页实现，欢迎指出问题，我会认真思考并尝试加以解决，这样有助于我们一起学习。</font></p>
+<h1 id="Markdown的使用说明"><a href="#Markdown的使用说明" class="headerlink" title="Markdown的使用说明"></a>Markdown的使用说明</h1><h1 id="一、标题"><a href="#一、标题" class="headerlink" title="一、标题"></a>一、标题</h1><blockquote>
+<p>语法：#（一级标题）##（二级标题）###（三级标题）…….(六级标题)；</p>
+<p>代码：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 这是一级标题</span><br><span class="line">## 这是二级标题</span><br></pre></td></tr></table></figure>
+
+<p>用法：在输入**#**后再后面补上 <strong>空格</strong>即可生效；</p>
+<p>快捷键：</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Mac</th>
+<th>Win</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>快速将选中的文本调成对应级别的标题</td>
+<td><kbd>⌘</kbd>+ <kbd>1~6</kbd></td>
+<td><kbd>Ctrl</kbd>+ <kbd>1~6</kbd></td>
+</tr>
+<tr>
+<td>快速将选中的文本调成普通文本</td>
+<td><kbd>⌘</kbd>+<kbd>0</kbd></td>
+<td><kbd>Ctrl</kbd>+ <kbd>0</kbd></td>
+</tr>
+<tr>
+<td>加号&#x2F;减号对标题级别进行加减</td>
+<td><kbd>⌘</kbd>+ <kbd>+</kbd>&#x2F;<kbd>-</kbd></td>
+<td><kbd>Ctrl</kbd>+  <kbd>+</kbd>&#x2F;<kbd>-</kbd></td>
+</tr>
+</tbody></table>
+</blockquote>
+<h1 id="二、段落"><a href="#二、段落" class="headerlink" title="二、段落"></a>二、段落</h1><h3 id="1-换行"><a href="#1-换行" class="headerlink" title="1.换行"></a>1.换行</h3><blockquote>
+<p>代码：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">这是一个段落（回车）</span><br><span class="line">这是二个段落（shift+回车）</span><br><span class="line">或者两个以上的空格（回车）或空一个行</span><br></pre></td></tr></table></figure>
+
+<p>效果：</p>
+<p>​	这是第一行</p>
+<p>​	这是第二行</p>
+<p>​	这是第三行<br>​	这是第四行</p>
+</blockquote>
+<h3 id="2-分割线"><a href="#2-分割线" class="headerlink" title="2.分割线"></a>2.分割线</h3><blockquote>
+<p>语法：- - -（三个减号）或者* * *（三个星号） +回车</p>
+<p>代码：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">--- 或者 ***</span><br></pre></td></tr></table></figure>
+
+<p>效果：</p>
+<hr>
+</blockquote>
+<h1 id="三、文字显示"><a href="#三、文字显示" class="headerlink" title="三、文字显示"></a>三、文字显示</h1><h3 id="1-字体"><a href="#1-字体" class="headerlink" title="1.字体"></a>1.字体</h3><blockquote>
+<p><strong>语法：</strong></p>
+<ul>
+<li><p>粗体：用一对双星号包裹（** 文本 **）</p>
+</li>
+<li><p>删除线：用一对双飘号包裹（~~ 文本 ~~）</p>
+</li>
+<li><p>下划线：用一对u标签包裹（<u> 文本 </u> ）</p>
+</li>
+<li><p>斜体：用一对单星号包裹（* 文本 *）</p>
+</li>
+<li><p>高亮：用一对双等号包裹（&#x3D;&#x3D; 文本 &#x3D;&#x3D;）</p>
+</li>
+</ul>
+<p><strong>代码：</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">**这是粗体**</span><br><span class="line">~~这是删除线~~</span><br><span class="line">&lt;u&gt;这是下划线&lt;/u&gt;</span><br><span class="line">*这是斜体*</span><br><span class="line">==这是高亮==</span><br></pre></td></tr></table></figure>
+
+<p><strong>效果：</strong></p>
+<p><strong>这是粗体</strong></p>
+<p><del>这是删除线</del></p>
+<p><u>这是下划线</u></p>
+<p><em>这是斜体</em></p>
+<p>&#x3D;&#x3D;这是高亮&#x3D;&#x3D;</p>
+<p><strong>快捷键：</strong></p>
+<table>
+<thead>
+<tr>
+<th>操作</th>
+<th>Mac</th>
+<th>Win</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>粗体</strong></td>
+<td><kbd>⌘</kbd>+<kbd>B</kbd></td>
+<td><kbd>Ctrl</kbd>+ <kbd>B</kbd></td>
+</tr>
+<tr>
+<td><del>删除线</del></td>
+<td><kbd>⌘</kbd>+<kbd>shift</kbd>+<kbd>`</kbd></td>
+<td><kbd>Alt</kbd>+<kbd>⇧</kbd>+<kbd>5</kbd></td>
+</tr>
+<tr>
+<td><u>下划线</u></td>
+<td><kbd>⌘</kbd>+<kbd>U</kbd></td>
+<td><kbd>Ctrl</kbd>+ <kbd>U</kbd></td>
+</tr>
+<tr>
+<td><em>斜体</em></td>
+<td><kbd>⌘</kbd>+<kbd>I</kbd></td>
+<td><kbd>Ctrl</kbd>+ <kbd>I</kbd></td>
+</tr>
+<tr>
+<td>&#x3D;&#x3D;高亮&#x3D;&#x3D;</td>
+<td><kbd>⌘</kbd>+<kbd>shift</kbd>+<kbd>H</kbd></td>
+<td></td>
+</tr>
+</tbody></table>
+</blockquote>
+<h3 id="2-上下标"><a href="#2-上下标" class="headerlink" title="2.上下标"></a>2.上下标</h3><blockquote>
+<p>代码：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">X^2^ (英文键盘)</span><br><span class="line">H~2~O</span><br></pre></td></tr></table></figure>
+
+<p>效果：</p>
+<p>X^2^</p>
+<p>H<del>2</del>O</p>
+</blockquote>
+<h1 id="四、字体颜色"><a href="#四、字体颜色" class="headerlink" title="四、字体颜色"></a>四、字体颜色</h1><ol>
+<li><p>开启字体颜色设置：</p>
+<blockquote>
+<p><code>文件</code>——<code>偏好设置</code>，选择<code>Markdown</code>，勾选<code>Markdown扩展语法下的内联公式</code>，然后重启Typora.</p>
+</blockquote>
+</li>
+<li><p>字体颜色代码：</p>
+<blockquote>
+<p>代码格式：<code>$\textcolor&#123;&lt;颜色代码&gt;&#125;&#123;&lt;带颜色的文本&gt;&#125;$</code></p>
+<table>
+<thead>
+<tr>
+<th>代码</th>
+<th>颜色</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>$\textcolor&#123;GreenYellow&#125;&#123;GreenYellow&#125; $</code></td>
+<td>$\textcolor{GreenYellow}{GreenYellow} $</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;Yellow&#125;&#123;Yellow&#125;$</code></td>
+<td>$\textcolor{Yellow}{Yellow}$</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;Goldenrod&#125;&#123;Goldenrod&#125; $</code></td>
+<td>$\textcolor{Goldenrod}{Goldenrod} $</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;Dandelion&#125;&#123;Dandelion&#125;$</code></td>
+<td>$\textcolor{Dandelion}{Dandelion}$</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;Apricot&#125;&#123;Apricot&#125; $</code></td>
+<td>$\textcolor{Apricot}{Apricot} $</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;Peach&#125;&#123;Peach&#125;$</code></td>
+<td>$\textcolor{Peach}{Peach}$</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;Melon&#125;&#123;Melon&#125; $</code></td>
+<td>$\textcolor{Melon}{Melon} $</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;YellowOrange&#125;&#123;YellowOrange&#125;$</code></td>
+<td>$\textcolor{YellowOrange}{YellowOrange}$</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;Orange&#125;&#123;Orange&#125; $</code></td>
+<td>$\textcolor{Orange}{Orange} $</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;BurntOrange&#125;&#123;BurntOrange&#125;$</code></td>
+<td>$\textcolor{BurntOrange}{BurntOrange}$</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;Bittersweet&#125;&#123;Bittersweet&#125;$</code></td>
+<td>$\textcolor{Bittersweet}{Bittersweet}$</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;RedOrange&#125;&#123;RedOrange&#125; $</code></td>
+<td>$\textcolor{RedOrange}{RedOrange} $</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;Mahogany&#125;&#123;Mahogany&#125;$</code></td>
+<td>$\textcolor{Mahogany}{Mahogany}$</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;Maroon&#125;&#123;Maroon&#125; $</code></td>
+<td>$\textcolor{Maroon}{Maroon} $</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;BrickRed&#125;&#123;BrickRed&#125;$</code></td>
+<td>$\textcolor{BrickRed}{BrickRed}$</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;Red&#125;&#123;Red&#125; $</code></td>
+<td>$\textcolor{Red}{Red} $</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;OrangeRed&#125;&#123;OrangeRed&#125;$</code></td>
+<td>$\textcolor{OrangeRed}{OrangeRed}$</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;RubineRed&#125;&#123;RubineRed&#125;$</code></td>
+<td>$\textcolor{RubineRed}{RubineRed}$</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;WildStrawberry&#125;&#123;WildStrawberry&#125;$</code></td>
+<td>$\textcolor{WildStrawberry}{WildStrawberry}$</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;Salmon&#125;&#123;Salmon&#125;$</code></td>
+<td>$\textcolor{Salmon}{Salmon}$</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;CarnationPink&#125;&#123;CarnationPink&#125;$</code></td>
+<td>$\textcolor{CarnationPink}{CarnationPink}$</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;Magenta&#125;&#123;Magenta&#125; $</code></td>
+<td>$\textcolor{Magenta}{Magenta} $</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;VioletRed&#125;&#123;VioletRed&#125;$</code></td>
+<td>$\textcolor{VioletRed}{VioletRed}$</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;Rhodamine&#125;&#123;Rhodamine&#125; $</code></td>
+<td>$\textcolor{Rhodamine}{Rhodamine} $</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;Mulberry&#125;&#123;Mulberry&#125;$</code></td>
+<td>$\textcolor{Mulberry}{Mulberry}$</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;RedViolet&#125;&#123;RedViolet&#125; $</code></td>
+<td>$\textcolor{RedViolet}{RedViolet} $</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;Fuchsia&#125;&#123;Fuchsia&#125;$</code></td>
+<td>$\textcolor{Fuchsia}{Fuchsia}$</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;Lavender&#125;&#123;Lavender&#125; $</code></td>
+<td>$\textcolor{Lavender}{Lavender} $</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;Thistle&#125;&#123;Thistle&#125;$</code></td>
+<td>$\textcolor{Thistle}{Thistle}$</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;Orchid&#125;&#123;Orchid&#125; $</code></td>
+<td>$\textcolor{Orchid}{Orchid} $</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;DarkOrchid&#125;&#123;DarkOrchid&#125;$</code></td>
+<td>$\textcolor{DarkOrchid}{DarkOrchid}$</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;Purple&#125;&#123;Purple&#125; $</code></td>
+<td>$\textcolor{Purple}{Purple} $</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;Plum&#125;&#123;Plum&#125;$</code></td>
+<td>$\textcolor{Plum}{Plum}$</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;Violet&#125;&#123;Violet&#125; $</code></td>
+<td>$\textcolor{Violet}{Violet} $</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;RoyalPurple&#125;&#123;RoyalPurple&#125;$</code></td>
+<td>$\textcolor{RoyalPurple}{RoyalPurple}$</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;BlueViolet&#125;&#123;BlueViolet&#125;$</code></td>
+<td>$\textcolor{BlueViolet}{BlueViolet}$</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;Periwinkle&#125;&#123;Periwinkle&#125;$</code></td>
+<td>$\textcolor{Periwinkle}{Periwinkle}$</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;CadetBlue&#125;&#123;CadetBlue&#125;$</code></td>
+<td>$\textcolor{CadetBlue}{CadetBlue}$</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;CornflowerBlue&#125;&#123;CornflowerBlue&#125;$</code></td>
+<td>$\textcolor{CornflowerBlue}{CornflowerBlue}$</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;MidnightBlue&#125;&#123;MidnightBlue&#125;$</code></td>
+<td>$\textcolor{MidnightBlue}{MidnightBlue}$</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;NavyBlue&#125;&#123;NavyBlue&#125; $</code></td>
+<td>$\textcolor{NavyBlue}{NavyBlue} $</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;RoyalBlue&#125;&#123;RoyalBlue&#125;$</code></td>
+<td>$\textcolor{RoyalBlue}{RoyalBlue}$</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;Blue&#125;&#123;Blue&#125; $</code></td>
+<td>$\textcolor{Blue}{Blue} $</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;Cerulean&#125;&#123;Cerulean&#125;$</code></td>
+<td>$\textcolor{Cerulean}{Cerulean}$</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;Cyan&#125;&#123;Cyan&#125; $</code></td>
+<td>$\textcolor{Cyan}{Cyan} $</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;ProcessBlue&#125;&#123;ProcessBlue&#125;$</code></td>
+<td>$\textcolor{ProcessBlue}{ProcessBlue}$</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;SkyBlue&#125;&#123;SkyBlue&#125; $</code></td>
+<td>$\textcolor{SkyBlue}{SkyBlue} $</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;Turquoise&#125;&#123;Turquoise&#125;$</code></td>
+<td>$\textcolor{Turquoise}{Turquoise}$</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;TealBlue&#125;&#123;TealBlue&#125; $</code></td>
+<td>$\textcolor{TealBlue}{TealBlue} $</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;Aquamarine&#125;&#123;Aquamarine&#125;$</code></td>
+<td>$\textcolor{Aquamarine}{Aquamarine}$</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;BlueGreen&#125;&#123;BlueGreen&#125; $</code></td>
+<td>$\textcolor{BlueGreen}{BlueGreen} $</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;Emerald&#125;&#123;Emerald&#125;$</code></td>
+<td>$\textcolor{Emerald}{Emerald}$</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;JungleGreen&#125;&#123;JungleGreen&#125;$</code></td>
+<td>$\textcolor{JungleGreen}{JungleGreen}$</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;SeaGreen&#125;&#123;SeaGreen&#125; $</code></td>
+<td>$\textcolor{SeaGreen}{SeaGreen} $</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;Green&#125;&#123;Green&#125;$</code></td>
+<td>$\textcolor{Green}{Green}$</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;ForestGreen&#125;&#123;ForestGreen&#125;$</code></td>
+<td>$\textcolor{ForestGreen}{ForestGreen}$</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;PineGreen&#125;&#123;PineGreen&#125; $</code></td>
+<td>$\textcolor{PineGreen}{PineGreen} $</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;LimeGreen&#125;&#123;LimeGreen&#125;$</code></td>
+<td>$\textcolor{LimeGreen}{LimeGreen}$</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;YellowGreen&#125;&#123;YellowGreen&#125;$</code></td>
+<td>$\textcolor{YellowGreen}{YellowGreen}$</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;SpringGreen&#125;&#123;SpringGreen&#125;$</code></td>
+<td>$\textcolor{SpringGreen}{SpringGreen}$</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;OliveGreen&#125;&#123;OliveGreen&#125;$</code></td>
+<td>$\textcolor{OliveGreen}{OliveGreen}$</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;RawSienna&#125;&#123;RawSienna&#125; $</code></td>
+<td>$\textcolor{RawSienna}{RawSienna} $</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;Sepia&#125;&#123;Sepia&#125;$</code></td>
+<td>$\textcolor{Sepia}{Sepia}$</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;Brown&#125;&#123;Brown&#125; $</code></td>
+<td>$\textcolor{Brown}{Brown} $</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;Tan&#125;&#123;Tan&#125;$</code></td>
+<td>$\textcolor{Tan}{Tan}$</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;Gray&#125;&#123;Gray&#125; $</code></td>
+<td>$\textcolor{Gray}{Gray} $</td>
+</tr>
+<tr>
+<td><code>$\textcolor&#123;Black&#125;&#123;Black&#125;$</code></td>
+<td>$\textcolor{Black}{Black}$</td>
+</tr>
+</tbody></table>
+</blockquote>
+</li>
+</ol>
+<h1 id="五、列表"><a href="#五、列表" class="headerlink" title="五、列表"></a>五、列表</h1><h3 id="1-无序列表"><a href="#1-无序列表" class="headerlink" title="1.无序列表"></a>1.无序列表</h3><blockquote>
+<p>代码：</p>
+<figure class="highlight tex"><table><tr><td class="code"><pre><span class="line">*（乘号） +空格</span><br><span class="line">-（减号） +空格</span><br><span class="line">+（加号） +空格</span><br></pre></td></tr></table></figure>
+
+<p>效果：</p>
+<p><kbd>*</kbd>&#x2F;<kbd>-</kbd>&#x2F;<kbd>+</kbd>+<kbd>空格键</kbd></p>
+<p>1.只有同一个级别：（退出序号，连续按两次回车即可）</p>
+<ul>
+<li>苹果</li>
+<li>香蕉</li>
+<li>橘子</li>
+</ul>
+<p>2.子集类：</p>
+<ul>
+<li>一级分类（下一级，按<kbd>Tab</kbd>；上一级，按<kbd>shift	</kbd>+<kbd>Tab</kbd>）<ul>
+<li>二级分类<ul>
+<li>三级分类</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</blockquote>
+<h3 id="2、有序列表"><a href="#2、有序列表" class="headerlink" title="2、有序列表"></a>2、有序列表</h3><blockquote>
+<p>代码：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">数字+. +空格</span><br></pre></td></tr></table></figure>
+
+<p>效果：</p>
+<p><kbd>1.</kbd>+<kbd>空格键</kbd></p>
+<ol>
+<li>第一个标题</li>
+<li>第二个标题</li>
+<li>第三个标题<ul>
+<li>字内容1</li>
+<li>字内容2</li>
+</ul>
+</li>
+<li>第四个标题</li>
+</ol>
+</blockquote>
+<h3 id="3-任务列表"><a href="#3-任务列表" class="headerlink" title="3.任务列表"></a>3.任务列表</h3><blockquote>
+<p>代码：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">- 空格 [空格] 空格</span><br><span class="line">- 空格 [X] 空格</span><br></pre></td></tr></table></figure>
+
+<p>效果：</p>
+<p><kbd>-</kbd>+<kbd>空格键</kbd>+<kbd>[</kbd>+<kbd>空格键</kbd>+<kbd>]</kbd>+<kbd>空格键</kbd></p>
+<ul>
+<li><input disabled="" type="checkbox"> 吃早餐</li>
+</ul>
+<p><kbd>-</kbd>+<kbd>空格键</kbd>+<kbd>[</kbd>+<kbd>x</kbd>+<kbd>]</kbd>+<kbd>空格键</kbd></p>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> 背单词</li>
+</ul>
+</blockquote>
+<h1 id="六、区块显示"><a href="#六、区块显示" class="headerlink" title="六、区块显示"></a>六、区块显示</h1><blockquote>
+<p>代码：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt; +回车（空格）</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>效果：</p>
+<blockquote>
+<p>这是最外层区块</p>
+<blockquote>
+<p>这是内层区块</p>
+<blockquote>
+<p>这是最内层区块</p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<h1 id="七、代码显示"><a href="#七、代码显示" class="headerlink" title="七、代码显示"></a>七、代码显示</h1><h3 id="1-行内代码"><a href="#1-行内代码" class="headerlink" title="1.行内代码"></a>1.行内代码</h3><blockquote>
+<p>代码：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">`int a=0;`    (说明：` 这个符号的位置在ESC键下方)</span><br></pre></td></tr></table></figure>
+
+<p>效果：</p>
+<p><code>int a=0;</code></p>
+<p>快捷键：</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Mac</th>
+<th>Win</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>代码</td>
+<td><kbd>Contorl</kbd>+<kbd>`</kbd></td>
+<td></td>
+</tr>
+</tbody></table>
+</blockquote>
+<h3 id="2-代码块"><a href="#2-代码块" class="headerlink" title="2.代码块"></a>2.代码块</h3><blockquote>
+<p>代码：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">``` +回车 (创建空白代码块)</span><br><span class="line">```js/java/c#/text （输入三个```加语言 js 或java或c#或者text</span><br><span class="line">内容</span><br><span class="line">```</span><br><span class="line">```</span><br><span class="line">version: &quot;3.8&quot;</span><br><span class="line">services:</span><br><span class="line"> emby:</span><br><span class="line">   image: amilys/embyserver:latest#lovechen/embyserver开心版测试安装插件有问题</span><br><span class="line">   container_name: embyserver</span><br><span class="line">   network_mode: bridge # DLNA and Wake-on-Lan需要bridge</span><br><span class="line">   environment:</span><br><span class="line">     - UID=0 # 设置容器用户 ID 为 0 (通常是 root)</span><br><span class="line">     - GID=0 # 设置容器组 ID 为 0 (通常是 root)</span><br><span class="line">     - GIDLIST=0 # 设置容器组 ID 列表为 0</span><br><span class="line">     - TZ=Asia/Shanghai # 设置容器的时区为亚洲/上海</span><br><span class="line">   volumes:</span><br><span class="line">     - /volume4/docker/emby:/config # 配置路径</span><br><span class="line">     - /volume1/video1:/volume1/video1 # 媒体资源路径</span><br><span class="line">     - /volume2/video2:/volume2/video2 # 媒体资源路径</span><br><span class="line">   devices:</span><br><span class="line">     - /dev/dri:/dev/dri             # 将主机的 /dev/dri 设备挂载到容器 开启硬解</span><br><span class="line">   ports:</span><br><span class="line">     - 8097:8096 # 对外访问端口8096被jellyfin用了</span><br><span class="line">   restart: unless-stopped</span><br><span class="line"></span><br><span class="line">```</span><br><span class="line"></span><br><span class="line">快捷键：</span><br><span class="line"></span><br><span class="line">|        | Mac                                          | Win                                           |</span><br><span class="line">| ------ | -------------------------------------------- | --------------------------------------------- |</span><br><span class="line">| 代码块 | &lt;kbd&gt;⌘&lt;/kbd&gt;+&lt;kbd&gt;Opthion&lt;/kbd&gt;+&lt;kbd&gt;C&lt;/kbd&gt; | &lt;kbd&gt;Ctrl&lt;/kbd&gt;+&lt;kbd&gt;shift&lt;/kbd&gt;+&lt;kbd&gt;K&lt;/kbd&gt; |</span><br><span class="line"></span><br><span class="line"># 八、链接</span><br><span class="line"></span><br><span class="line">代码：</span><br><span class="line"></span><br><span class="line">```</span><br><span class="line">www.baidu.com  显示网址</span><br><span class="line">[百度一下](https://www.baidu.com)  显示名称</span><br><span class="line">[百度一下](https://www.baidu.com空格&quot;https://www.baidu.com&quot;)  鼠标移动到“百度一下”的名字上显示网址链接</span><br><span class="line">[输入文本](##粘贴复制的标题)</span><br><span class="line">```</span><br><span class="line"></span><br><span class="line">效果：</span><br><span class="line"></span><br><span class="line">www.baidu.com </span><br><span class="line"></span><br><span class="line">[百度一下](https://www.baidu.com)</span><br><span class="line"></span><br><span class="line">[百度一下](https://www.baidu.com &quot;https://www.baidu.com&quot;)  </span><br><span class="line"></span><br><span class="line">[标题跳转演示](##一、标题)</span><br><span class="line"></span><br><span class="line">(直接点击代码不会跳转，要跳转的话需要按住⌘/Contro，再点击链接触发跳转)</span><br><span class="line"></span><br><span class="line">快捷键：</span><br><span class="line"></span><br><span class="line">|        | Mac                       | Win                          |</span><br><span class="line">| ------ | ------------------------- | ---------------------------- |</span><br><span class="line">| 超链接 | &lt;kbd&gt;⌘&lt;/kbd&gt;+&lt;kbd&gt;K&lt;/kbd&gt; | &lt;kbd&gt;Ctrl&lt;/kbd&gt;+&lt;kbd&gt;K&lt;/kbd&gt; |</span><br><span class="line"></span><br><span class="line"># 九、脚注</span><br><span class="line"></span><br><span class="line">说明：对文本中的一些词句进行解释，添加一份释义；</span><br><span class="line"></span><br><span class="line">代码：</span><br><span class="line"></span><br><span class="line">```</span><br><span class="line">[^文本]</span><br><span class="line">[^文本]:解释说明</span><br><span class="line">```</span><br><span class="line"></span><br><span class="line">（Tisp:文本包含任何字符；）</span><br><span class="line"></span><br><span class="line">效果：</span><br><span class="line"></span><br><span class="line">这是一个技术[^1]</span><br><span class="line"></span><br><span class="line">[^1]: 这是一个非常好用的框架</span><br><span class="line"></span><br><span class="line">这是一台计算机[^计算机]</span><br><span class="line"></span><br><span class="line">[^计算机]: 一种具有高速处理资料能力的电子器械。</span><br><span class="line"></span><br><span class="line"># 十、图片插入</span><br><span class="line"></span><br><span class="line">代码：MarkDown语法插入图片</span><br><span class="line">```</span><br><span class="line">![1222.jpg](https://imgbed.814925.xyz/file/1728026196289_1222.jpg)</span><br><span class="line">```</span><br><span class="line">&gt;使用html语法插入图片</span><br><span class="line">&lt;img src=&quot;https://imgbed.814925.xyz/file/1727336719764_spongebob_and_gary_snail-wallpaper-1920x1080.jpg&quot; alt=&quot;不会被显示的文字&quot; title=&quot;冒号里面的文字是鼠标碰到图片就会显示的&quot; style=&quot;zoom:50%;&quot; /&gt;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">快捷键：</span><br><span class="line"></span><br><span class="line">|          | Mac                                          | Win                                           |</span><br><span class="line">| -------- | -------------------------------------------- | --------------------------------------------- |</span><br><span class="line">| 插入图像 | &lt;kbd&gt;⌘&lt;/kbd&gt;+&lt;kbd&gt;control&lt;/kbd&gt;+&lt;kbd&gt;I&lt;/kbd&gt; | &lt;kbd&gt;Ctrl&lt;/kbd&gt;+&lt;kbd&gt;shift&lt;/kbd&gt;+&lt;kbd&gt;I&lt;/kbd&gt; |</span><br><span class="line"></span><br><span class="line"># 十一、表格</span><br><span class="line"></span><br><span class="line">代码：</span><br><span class="line"></span><br><span class="line">```</span><br><span class="line">|标题1 | 标题2 | 标题3 |</span><br><span class="line">| :--- | :---: | ---: |</span><br><span class="line">| 左对齐| 居中对齐 | 右对齐 |</span><br><span class="line">| 文本4 | 文本5 | 文本6 |</span><br><span class="line"></span><br><span class="line">注释：使用英文键盘按住shfit+|（delete键下方），打出 |+空格+文本+空格+|,最少输入两遍；</span><br><span class="line">```</span><br><span class="line"></span><br><span class="line">效果：</span><br><span class="line"></span><br><span class="line">| 标题1 | 标题2 | 标题3 |</span><br><span class="line">| :---- | :---: | ----: |</span><br><span class="line">| 左对齐 | 居中对齐 | 右对齐 |</span><br><span class="line">| 文本4 | 文本5 | 文本6 |</span><br><span class="line"></span><br><span class="line">快捷键：</span><br><span class="line"></span><br><span class="line">|          | Mac        | Win    |</span><br><span class="line">| -------- | ---------- | ------ |</span><br><span class="line">| 插入表格 | ⌘+Option+T | Ctrl+T |</span><br><span class="line"></span><br><span class="line"># 十二、图表类型</span><br><span class="line"></span><br><span class="line">使用方法：连续输入三个` ``` `后在输入`mermaid`，就开启了图表代码；</span><br><span class="line"></span><br><span class="line">### 1.Flowchart（流程图）</span><br><span class="line"></span><br><span class="line">**标题：**</span><br><span class="line"></span><br><span class="line">```python</span><br><span class="line">---</span><br><span class="line">title：文本</span><br><span class="line">---</span><br><span class="line">```</span><br><span class="line"></span><br><span class="line">**格式：**</span><br><span class="line"></span><br><span class="line">~~~python</span><br><span class="line">flowchart TD #TD/TB/LR/RL</span><br><span class="line">~~~</span><br><span class="line"></span><br><span class="line">**文本：**</span><br><span class="line"></span><br><span class="line">~~~python</span><br><span class="line">#简单格式</span><br><span class="line">A--&gt;B</span><br><span class="line">~~~</span><br><span class="line"></span><br><span class="line">~~~python</span><br><span class="line">#文本格式</span><br><span class="line">A[文本]--&gt;B[文本]</span><br><span class="line">~~~</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">代码展示：</span><br><span class="line"></span><br><span class="line">````python</span><br><span class="line">graph TD;</span><br><span class="line">    A--&gt;B;</span><br><span class="line">    A--&gt;C;</span><br><span class="line">    B--&gt;D;</span><br><span class="line">    C--&gt;D;</span><br></pre></td></tr></table></figure>
+
+<p>效果展示：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">graph TD;</span><br><span class="line">   A--&gt;B;</span><br><span class="line">    A--&gt;C;</span><br><span class="line">    B--&gt;D;</span><br><span class="line">    C--&gt;D;</span><br></pre></td></tr></table></figure>
+</blockquote>
+<h3 id="2-序列图"><a href="#2-序列图" class="headerlink" title="2.序列图"></a>2.序列图</h3><blockquote>
+<p>代码展示：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">sequenceDiagram</span><br><span class="line">    participant Alice</span><br><span class="line">    participant Bob</span><br><span class="line">    Alice-&gt;&gt;John: Hello John, how are you?</span><br><span class="line">    loop Healthcheck</span><br><span class="line">        John-&gt;&gt;John: Fight against hypochondria</span><br><span class="line">    end</span><br><span class="line">    Note right of John: Rational thoughts &lt;br/&gt;prevail!</span><br><span class="line">    John--&gt;&gt;Alice: Great!</span><br><span class="line">    John-&gt;&gt;Bob: How about you?</span><br><span class="line">    Bob--&gt;&gt;John: Jolly good!</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>效果展示：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sequenceDiagram</span><br><span class="line">    participant Alice</span><br><span class="line">    participant Bob</span><br><span class="line">    Alice-&gt;&gt;John: Hello John, how are you?</span><br><span class="line">    loop Healthcheck</span><br><span class="line">        John-&gt;&gt;John: Fight against hypochondria</span><br><span class="line">    end</span><br><span class="line">    Note right of John: Rational thoughts &lt;br/&gt;prevail!</span><br><span class="line">    John--&gt;&gt;Alice: Great!</span><br><span class="line">    John-&gt;&gt;Bob: How about you?</span><br><span class="line">    Bob--&gt;&gt;John: Jolly good!</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+</blockquote>
+<h3 id="3-甘特图"><a href="#3-甘特图" class="headerlink" title="3.甘特图"></a>3.甘特图</h3><blockquote>
+<p>使用方法:</p>
+<p>代码展示：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">gantt</span><br><span class="line">dateFormat  YYYY-MM-DD</span><br><span class="line">title Adding GANTT diagram to mermaid</span><br><span class="line">excludes weekdays <span class="number">2014</span>-01-<span class="number">10</span></span><br><span class="line"></span><br><span class="line">section A section</span><br><span class="line">Completed task            :done,    des1, <span class="number">2014</span>-01-06,<span class="number">2014</span>-01-08</span><br><span class="line">Active task               :active,  des2, <span class="number">2014</span>-01-09, 3d</span><br><span class="line">Future task               :         des3, after des2, 5d</span><br><span class="line">Future task2               :         des4, after des3, 5d</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>效果展示：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">gantt</span><br><span class="line">dateFormat  YYYY-MM-DD</span><br><span class="line">title Adding GANTT diagram to mermaid</span><br><span class="line">excludes weekdays 2014-01-10</span><br><span class="line"></span><br><span class="line">section A section</span><br><span class="line">Completed task            :done,    des1, 2014-01-06,2014-01-08</span><br><span class="line">Active task               :active,  des2, 2014-01-09, 3d</span><br><span class="line">Future task               :         des3, after des2, 5d</span><br><span class="line">Future task2               :         des4, after des3, 5d</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+</blockquote>
+<h3 id="4-类图"><a href="#4-类图" class="headerlink" title="4.类图"></a>4.类图</h3><p>使用方法：</p>
+<blockquote>
+<p>代码展示：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">classDiagram</span><br><span class="line">Class01 &lt;|-- AveryLongClass : Cool</span><br><span class="line">Class03 *-- Class04</span><br><span class="line">Class05 o-- Class06</span><br><span class="line">Class07 .. Class08</span><br><span class="line">Class09 --&gt; C2 : Where am i?</span><br><span class="line">Class09 --* C3</span><br><span class="line">Class09 --|&gt; Class07</span><br><span class="line">Class07 : equals()</span><br><span class="line">Class07 : Object[] elementData</span><br><span class="line">Class01 : size()</span><br><span class="line">Class01 : <span class="built_in">int</span> chimp</span><br><span class="line">Class01 : <span class="built_in">int</span> gorilla</span><br><span class="line">Class08 &lt;--&gt; C2: Cool label</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>效果展示：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">classDiagram</span><br><span class="line">Class01 &lt;|-- AveryLongClass : Cool</span><br><span class="line">Class03 *-- Class04</span><br><span class="line">Class05 o-- Class06</span><br><span class="line">Class07 .. Class08</span><br><span class="line">Class09 --&gt; C2 : Where am i?</span><br><span class="line">Class09 --* C3</span><br><span class="line">Class09 --|&gt; Class07</span><br><span class="line">Class07 : equals()</span><br><span class="line">Class07 : Object[] elementData</span><br><span class="line">Class01 : size()</span><br><span class="line">Class01 : int chimp</span><br><span class="line">Class01 : int gorilla</span><br><span class="line">Class08 &lt;--&gt; C2: Cool label</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+</blockquote>
+<h3 id="5-Git-Gitgraph-图"><a href="#5-Git-Gitgraph-图" class="headerlink" title="5.Git(Gitgraph)图"></a>5.Git(Gitgraph)图</h3><p>使用方法：</p>
+<blockquote>
+<p>代码展示： </p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">gitGraph</span><br><span class="line">   commit</span><br><span class="line">   commit</span><br><span class="line">   branch develop</span><br><span class="line">   commit</span><br><span class="line">   commit</span><br><span class="line">   commit</span><br><span class="line">   checkout main</span><br><span class="line">   commit</span><br><span class="line">   commit</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>效果展示：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">gitGraph</span><br><span class="line">       commit</span><br><span class="line">       commit</span><br><span class="line">       branch develop</span><br><span class="line">       commit</span><br><span class="line">       commit</span><br><span class="line">       commit</span><br><span class="line">       checkout main</span><br><span class="line">       commit</span><br><span class="line">       commit</span><br></pre></td></tr></table></figure>
+</blockquote>
+<h3 id="6-实体关系图"><a href="#6-实体关系图" class="headerlink" title="6. 实体关系图"></a>6. 实体关系图</h3><p>使用方法：</p>
+<blockquote>
+<p>代码展示：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">erDiagram</span><br><span class="line">    CUSTOMER ||--o&#123; ORDER : places</span><br><span class="line">    ORDER ||--|&#123; LINE-ITEM : contains</span><br><span class="line">    CUSTOMER &#125;|..|&#123; DELIVERY-ADDRESS : uses</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>效果展示：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">erDiagram</span><br><span class="line">    CUSTOMER ||--o&#123; ORDER : places</span><br><span class="line">    ORDER ||--|&#123; LINE-ITEM : contains</span><br><span class="line">    CUSTOMER &#125;|..|&#123; DELIVERY-ADDRESS : uses</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+</blockquote>
+<h3 id="7-用户旅行图"><a href="#7-用户旅行图" class="headerlink" title="7.用户旅行图"></a>7.用户旅行图</h3><p>使用方法：</p>
+<blockquote>
+<p>代码展示：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">journey</span><br><span class="line">    title My working day</span><br><span class="line">    section Go to work</span><br><span class="line">      Make tea: <span class="number">5</span>: Me</span><br><span class="line">      Go upstairs: <span class="number">3</span>: Me</span><br><span class="line">      Do work: <span class="number">1</span>: Me, Cat</span><br><span class="line">    section Go home</span><br><span class="line">      Go downstairs: <span class="number">5</span>: Me</span><br><span class="line">      Sit down: <span class="number">5</span>: Me</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>效果展示：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">journey</span><br><span class="line">    title My working day</span><br><span class="line">    section Go to work</span><br><span class="line">      Make tea: 5: Me</span><br><span class="line">      Go upstairs: 3: Me</span><br><span class="line">      Do work: 1: Me, Cat</span><br><span class="line">    section Go home</span><br><span class="line">      Go downstairs: 5: Me</span><br><span class="line">      Sit down: 5: Me</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+</blockquote>
+<h3 id="8-状态图"><a href="#8-状态图" class="headerlink" title="8.状态图"></a>8.状态图</h3><p>使用方法：</p>
+<blockquote>
+<p>代码展示：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: Simple sample</span><br><span class="line">---</span><br><span class="line">stateDiagram-v2</span><br><span class="line">    [*] --&gt; Still</span><br><span class="line">    Still --&gt; [*]</span><br><span class="line"></span><br><span class="line">    Still --&gt; Moving</span><br><span class="line">    Moving --&gt; Still</span><br><span class="line">    Moving --&gt; Crash</span><br><span class="line">    Crash --&gt; [*]</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>效果展示：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: Simple sample</span><br><span class="line">---</span><br><span class="line">stateDiagram-v2</span><br><span class="line">    [*] --&gt; Still</span><br><span class="line">    Still --&gt; [*]</span><br><span class="line"></span><br><span class="line">    Still --&gt; Moving</span><br><span class="line">    Moving --&gt; Still</span><br><span class="line">    Moving --&gt; Crash</span><br><span class="line">    Crash --&gt; [*]</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+</blockquote>
+<h3 id="9-饼图"><a href="#9-饼图" class="headerlink" title="9.饼图"></a>9.饼图</h3><p>使用方法：</p>
+<blockquote>
+<p>代码展示：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">pie title Pets adopted by volunteers</span><br><span class="line">    <span class="string">&quot;Dogs&quot;</span> : <span class="number">386</span></span><br><span class="line">    <span class="string">&quot;Cats&quot;</span> : <span class="number">85</span></span><br><span class="line">    <span class="string">&quot;Rats&quot;</span> : <span class="number">15</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>效果展示：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">pie title Pets adopted by volunteers</span><br><span class="line">    &quot;Dogs&quot; : 386</span><br><span class="line">    &quot;Cats&quot; : 85</span><br><span class="line">    &quot;Rats&quot; : 15</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+</blockquote>
+<h3 id="10-需求图"><a href="#10-需求图" class="headerlink" title="10.需求图"></a>10.需求图</h3><p>使用方法：</p>
+<blockquote>
+<p>代码展示：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">requirementDiagram</span><br><span class="line"></span><br><span class="line">requirement test_req &#123;</span><br><span class="line"><span class="built_in">id</span>: <span class="number">1</span></span><br><span class="line">text: the test text.</span><br><span class="line">risk: high</span><br><span class="line">verifymethod: test</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">element test_entity &#123;</span><br><span class="line"><span class="built_in">type</span>: simulation</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">test_entity - satisfies -&gt; test_req</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>效果展示：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">requirementDiagram</span><br><span class="line"></span><br><span class="line">requirement test_req &#123;</span><br><span class="line">id: 1</span><br><span class="line">text: the test text.</span><br><span class="line">risk: high</span><br><span class="line">verifymethod: test</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">element test_entity &#123;</span><br><span class="line">type: simulation</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">test_entity - satisfies -&gt; test_req</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+</blockquote>
+<h3 id="11-C4C图"><a href="#11-C4C图" class="headerlink" title="11.C4C图"></a>11.C4C图</h3><p>使用说明：</p>
+<blockquote>
+<p>代码展示：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">C4Context</span><br><span class="line">  title System Context diagram <span class="keyword">for</span> Internet Banking System</span><br><span class="line">  Enterprise_Boundary(b0, <span class="string">&quot;BankBoundary0&quot;</span>) &#123;</span><br><span class="line">    Person(customerA, <span class="string">&quot;Banking Customer A&quot;</span>, <span class="string">&quot;A customer of the bank, with personal bank accounts.&quot;</span>)</span><br><span class="line">    Person(customerB, <span class="string">&quot;Banking Customer B&quot;</span>)</span><br><span class="line">    Person_Ext(customerC, <span class="string">&quot;Banking Customer C&quot;</span>, <span class="string">&quot;desc&quot;</span>)</span><br><span class="line"></span><br><span class="line">    Person(customerD, <span class="string">&quot;Banking Customer D&quot;</span>, <span class="string">&quot;A customer of the bank, &lt;br/&gt; with personal bank accounts.&quot;</span>)</span><br><span class="line"></span><br><span class="line">    System(SystemAA, <span class="string">&quot;Internet Banking System&quot;</span>, <span class="string">&quot;Allows customers to view information about their bank accounts, and make payments.&quot;</span>)</span><br><span class="line"></span><br><span class="line">    Enterprise_Boundary(b1, <span class="string">&quot;BankBoundary&quot;</span>) &#123;</span><br><span class="line"></span><br><span class="line">      SystemDb_Ext(SystemE, <span class="string">&quot;Mainframe Banking System&quot;</span>, <span class="string">&quot;Stores all of the core banking information about customers, accounts, transactions, etc.&quot;</span>)</span><br><span class="line"></span><br><span class="line">      System_Boundary(b2, <span class="string">&quot;BankBoundary2&quot;</span>) &#123;</span><br><span class="line">        System(SystemA, <span class="string">&quot;Banking System A&quot;</span>)</span><br><span class="line">        System(SystemB, <span class="string">&quot;Banking System B&quot;</span>, <span class="string">&quot;A system of the bank, with personal bank accounts. next line.&quot;</span>)</span><br><span class="line">      &#125;</span><br><span class="line"></span><br><span class="line">      System_Ext(SystemC, <span class="string">&quot;E-mail system&quot;</span>, <span class="string">&quot;The internal Microsoft Exchange e-mail system.&quot;</span>)</span><br><span class="line">      SystemDb(SystemD, <span class="string">&quot;Banking System D Database&quot;</span>, <span class="string">&quot;A system of the bank, with personal bank accounts.&quot;</span>)</span><br><span class="line"></span><br><span class="line">      Boundary(b3, <span class="string">&quot;BankBoundary3&quot;</span>, <span class="string">&quot;boundary&quot;</span>) &#123;</span><br><span class="line">        SystemQueue(SystemF, <span class="string">&quot;Banking System F Queue&quot;</span>, <span class="string">&quot;A system of the bank.&quot;</span>)</span><br><span class="line">        SystemQueue_Ext(SystemG, <span class="string">&quot;Banking System G Queue&quot;</span>, <span class="string">&quot;A system of the bank, with personal bank accounts.&quot;</span>)</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  BiRel(customerA, SystemAA, <span class="string">&quot;Uses&quot;</span>)</span><br><span class="line">  BiRel(SystemAA, SystemE, <span class="string">&quot;Uses&quot;</span>)</span><br><span class="line">  Rel(SystemAA, SystemC, <span class="string">&quot;Sends e-mails&quot;</span>, <span class="string">&quot;SMTP&quot;</span>)</span><br><span class="line">  Rel(SystemC, customerA, <span class="string">&quot;Sends e-mails to&quot;</span>)</span><br><span class="line"></span><br><span class="line">  UpdateElementStyle(customerA, $fontColor=<span class="string">&quot;red&quot;</span>, $bgColor=<span class="string">&quot;grey&quot;</span>, $borderColor=<span class="string">&quot;red&quot;</span>)</span><br><span class="line">  UpdateRelStyle(customerA, SystemAA, $textColor=<span class="string">&quot;blue&quot;</span>, $lineColor=<span class="string">&quot;blue&quot;</span>, $offsetX=<span class="string">&quot;5&quot;</span>)</span><br><span class="line">  UpdateRelStyle(SystemAA, SystemE, $textColor=<span class="string">&quot;blue&quot;</span>, $lineColor=<span class="string">&quot;blue&quot;</span>, $offsetY=<span class="string">&quot;-10&quot;</span>)</span><br><span class="line">  UpdateRelStyle(SystemAA, SystemC, $textColor=<span class="string">&quot;blue&quot;</span>, $lineColor=<span class="string">&quot;blue&quot;</span>, $offsetY=<span class="string">&quot;-40&quot;</span>, $offsetX=<span class="string">&quot;-50&quot;</span>)</span><br><span class="line">  UpdateRelStyle(SystemC, customerA, $textColor=<span class="string">&quot;red&quot;</span>, $lineColor=<span class="string">&quot;red&quot;</span>, $offsetX=<span class="string">&quot;-50&quot;</span>, $offsetY=<span class="string">&quot;20&quot;</span>)</span><br><span class="line"></span><br><span class="line">  UpdateLayoutConfig($c4ShapeInRow=<span class="string">&quot;3&quot;</span>, $c4BoundaryInRow=<span class="string">&quot;1&quot;</span>)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>效果展示：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">C4Context</span><br><span class="line">  title System Context diagram for Internet Banking System</span><br><span class="line">  Enterprise_Boundary(b0, &quot;BankBoundary0&quot;) &#123;</span><br><span class="line">    Person(customerA, &quot;Banking Customer A&quot;, &quot;A customer of the bank, with personal bank accounts.&quot;)</span><br><span class="line">    Person(customerB, &quot;Banking Customer B&quot;)</span><br><span class="line">    Person_Ext(customerC, &quot;Banking Customer C&quot;, &quot;desc&quot;)</span><br><span class="line"></span><br><span class="line">    Person(customerD, &quot;Banking Customer D&quot;, &quot;A customer of the bank, &lt;br/&gt; with personal bank accounts.&quot;)</span><br><span class="line"></span><br><span class="line">    System(SystemAA, &quot;Internet Banking System&quot;, &quot;Allows customers to view information about their bank accounts, and make payments.&quot;)</span><br><span class="line"></span><br><span class="line">    Enterprise_Boundary(b1, &quot;BankBoundary&quot;) &#123;</span><br><span class="line"></span><br><span class="line">      SystemDb_Ext(SystemE, &quot;Mainframe Banking System&quot;, &quot;Stores all of the core banking information about customers, accounts, transactions, etc.&quot;)</span><br><span class="line"></span><br><span class="line">      System_Boundary(b2, &quot;BankBoundary2&quot;) &#123;</span><br><span class="line">        System(SystemA, &quot;Banking System A&quot;)</span><br><span class="line">        System(SystemB, &quot;Banking System B&quot;, &quot;A system of the bank, with personal bank accounts. next line.&quot;)</span><br><span class="line">      &#125;</span><br><span class="line"></span><br><span class="line">      System_Ext(SystemC, &quot;E-mail system&quot;, &quot;The internal Microsoft Exchange e-mail system.&quot;)</span><br><span class="line">      SystemDb(SystemD, &quot;Banking System D Database&quot;, &quot;A system of the bank, with personal bank accounts.&quot;)</span><br><span class="line"></span><br><span class="line">      Boundary(b3, &quot;BankBoundary3&quot;, &quot;boundary&quot;) &#123;</span><br><span class="line">        SystemQueue(SystemF, &quot;Banking System F Queue&quot;, &quot;A system of the bank.&quot;)</span><br><span class="line">        SystemQueue_Ext(SystemG, &quot;Banking System G Queue&quot;, &quot;A system of the bank, with personal bank accounts.&quot;)</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  BiRel(customerA, SystemAA, &quot;Uses&quot;)</span><br><span class="line">  BiRel(SystemAA, SystemE, &quot;Uses&quot;)</span><br><span class="line">  Rel(SystemAA, SystemC, &quot;Sends e-mails&quot;, &quot;SMTP&quot;)</span><br><span class="line">  Rel(SystemC, customerA, &quot;Sends e-mails to&quot;)</span><br><span class="line"></span><br><span class="line">  UpdateElementStyle(customerA, $fontColor=&quot;red&quot;, $bgColor=&quot;grey&quot;, $borderColor=&quot;red&quot;)</span><br><span class="line">  UpdateRelStyle(customerA, SystemAA, $textColor=&quot;blue&quot;, $lineColor=&quot;blue&quot;, $offsetX=&quot;5&quot;)</span><br><span class="line">  UpdateRelStyle(SystemAA, SystemE, $textColor=&quot;blue&quot;, $lineColor=&quot;blue&quot;, $offsetY=&quot;-10&quot;)</span><br><span class="line">  UpdateRelStyle(SystemAA, SystemC, $textColor=&quot;blue&quot;, $lineColor=&quot;blue&quot;, $offsetY=&quot;-40&quot;, $offsetX=&quot;-50&quot;)</span><br><span class="line">  UpdateRelStyle(SystemC, customerA, $textColor=&quot;red&quot;, $lineColor=&quot;red&quot;, $offsetX=&quot;-50&quot;, $offsetY=&quot;20&quot;)</span><br><span class="line"></span><br><span class="line">  UpdateLayoutConfig($c4ShapeInRow=&quot;3&quot;, $c4BoundaryInRow=&quot;1&quot;)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+</blockquote>
+<h3 id="12-思维导图"><a href="#12-思维导图" class="headerlink" title="12.思维导图"></a>12.思维导图</h3><p>使用说明：</p>
+<blockquote>
+<p>代码展示：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">mindmap</span><br><span class="line">  root((mindmap))</span><br><span class="line">    Origins</span><br><span class="line">      Long history</span><br><span class="line">      ::icon(fa fa-book)</span><br><span class="line">      Popularisation</span><br><span class="line">        British popular psychology author Tony Buzan</span><br><span class="line">    Research</span><br><span class="line">      On effectiveness&lt;br/&gt;<span class="keyword">and</span> features</span><br><span class="line">      On Automatic creation</span><br><span class="line">        Uses</span><br><span class="line">            Creative techniques</span><br><span class="line">            Strategic planning</span><br><span class="line">            Argument mapping</span><br><span class="line">    Tools</span><br><span class="line">      Pen <span class="keyword">and</span> paper</span><br><span class="line">      Mermaid</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>代码展示：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">mindmap</span><br><span class="line">  root((mindmap))</span><br><span class="line">    Origins</span><br><span class="line">      Long history</span><br><span class="line">      ::icon(fa fa-book)</span><br><span class="line">      Popularisation</span><br><span class="line">        British popular psychology author Tony Buzan</span><br><span class="line">    Research</span><br><span class="line">      On effectiveness&lt;br/&gt;and features</span><br><span class="line">      On Automatic creation</span><br><span class="line">        Uses</span><br><span class="line">            Creative techniques</span><br><span class="line">            Strategic planning</span><br><span class="line">            Argument mapping</span><br><span class="line">    Tools</span><br><span class="line">      Pen and paper</span><br><span class="line">      Mermaid</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+</blockquote>
+<h3 id="13-时间轴"><a href="#13-时间轴" class="headerlink" title="13.时间轴"></a>13.时间轴</h3><p>使用说明：</p>
+<blockquote>
+<p>代码展示：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">&gt;timeline</span><br><span class="line">   title History of Social Media Platform</span><br><span class="line">   <span class="number">2002</span> : LinkedIn</span><br><span class="line">   <span class="number">2004</span> : Facebook</span><br><span class="line">        : Google</span><br><span class="line">   <span class="number">2005</span> : Youtube</span><br><span class="line">   <span class="number">2006</span> : Twitter</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>效果展示：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt;timeline</span><br><span class="line">   title History of Social Media Platform</span><br><span class="line">   2002 : LinkedIn</span><br><span class="line">   2004 : Facebook</span><br><span class="line">        : Google</span><br><span class="line">   2005 : Youtube</span><br><span class="line">   2006 : Twitter</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+</blockquote>
+<h3 id="14-qita"><a href="#14-qita" class="headerlink" title="14.qita"></a>14.qita</h3><h1 id="十三、表情符合"><a href="#十三、表情符合" class="headerlink" title="十三、表情符合"></a>十三、表情符合</h1><blockquote>
+<p>代码：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">:happy:、:cry:、:man:</span><br></pre></td></tr></table></figure>
+
+<p>效果：</p>
+<p>:happy:、:cry:、:man:</p>
+</blockquote>
+<h1 id="十四、数学公式的输入latex"><a href="#十四、数学公式的输入latex" class="headerlink" title="十四、数学公式的输入latex"></a>十四、数学公式的输入latex</h1><h3 id="1、公式的插入"><a href="#1、公式的插入" class="headerlink" title="1、公式的插入"></a>1、公式的插入</h3><blockquote>
+<h4 id="①插入单行公式"><a href="#①插入单行公式" class="headerlink" title="①插入单行公式"></a>①插入单行公式</h4><p>代码：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$f(x)=ax+b$</span><br></pre></td></tr></table></figure>
+
+<p>效果：</p>
+<p>$f(x)&#x3D;ax+b$</p>
+</blockquote>
+<blockquote>
+<h3 id="②独立公式"><a href="#②独立公式" class="headerlink" title="②独立公式"></a>②独立公式</h3><p>代码：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$$</span><br><span class="line">\begin&#123;Bmatrix&#125;</span><br><span class="line">a &amp; b \\</span><br><span class="line">c &amp; d</span><br><span class="line">\end&#123;Bmatrix&#125;</span><br><span class="line">$$</span><br></pre></td></tr></table></figure>
+
+<p>效果：<br>$$<br> \begin{Bmatrix}<br> a &amp; b \<br> c &amp; d<br> \end{Bmatrix}<br>$$<br>$$<br>\begin{align}<br>\lim\limits_{n \to +\infty}\sum\limits_{i \in \cal I}<br>f(x_{i})\delta_{i}&#x3D;\int_{a}^{b}f(x)dx<br>\end{align}<br>$$</p>
+</blockquote>
+<h1 id="十五、支持的HTML元素"><a href="#十五、支持的HTML元素" class="headerlink" title="十五、支持的HTML元素"></a>十五、支持的HTML元素</h1><p>不在Markdown 涵盖范围之内的标签，都可以直接在文档中用HTML 撰写。</p>
+<p>目前支持的HTML元素有：<kbd>(键盘文本)、 <b>(加粗)、<i>(斜体)、<em>(斜体)、<sub>(下标)、<sup>(上标)、<br>(换行)、<center>(居中)等。</p>
+<h3 id="kbd"><a href="#kbd" class="headerlink" title="kbd"></a>kbd</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">使用 &lt;kbd&gt;Ctrl&lt;/kbd&gt;+&lt;kbd&gt;Alt&lt;/kbd&gt;+&lt;kbd&gt;Del&lt;/kbd&gt; 重启电脑</span><br></pre></td></tr></table></figure>
+
+<p>使用 <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Del</kbd> 重启电脑</p>
+<ol>
+<li>独立展示</li>
+</ol>
+<blockquote>
+<p>键入<kbd>需要显示的文本</kbd></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;kbd&gt;需要显示的文本&lt;/kbd&gt;</span><br></pre></td></tr></table></figure>
+</blockquote>
+<h3 id="字体颜色"><a href="#字体颜色" class="headerlink" title="字体颜色"></a>字体颜色</h3><p><font color="red">1.font格式字体</font></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;font color=&quot;red&quot;&gt;font红色&lt;/font&gt;</span><br></pre></td></tr></table></figure>
+<p><font color="red"></font> </p>
+<blockquote>
+<p>&lt;font</p>
+<p>字体颜色<code>color=&quot;&lt;字体颜色&gt;&quot;</code></p>
+<table>
+<thead>
+<tr>
+<th>代码</th>
+<th>效果展示</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>red</code></td>
+<td><font color="red">红色字体</font></td>
+</tr>
+<tr>
+<td><code>green</code></td>
+<td><font color="green">绿色字体</font></td>
+</tr>
+<tr>
+<td><code>blue</code></td>
+<td><font color="blue">蓝色字体</font></td>
+</tr>
+<tr>
+<td><code>White</code></td>
+<td><font color="White">白色字体</font></td>
+</tr>
+<tr>
+<td><code>black</code></td>
+<td><font color="black">黑色字体</font></td>
+</tr>
+<tr>
+<td><code>yellow</code></td>
+<td><font color="yellow">黄色字体</font></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+</blockquote>
+<p><span style='color:red;background:blue;font-size:20px;font-family:cursive;'>2.span格式字体</span></p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">style</span>=<span class="string">&quot;color:&lt;文字颜色&gt;;background:&lt;背景颜色&gt;;font-size:&lt;文字大小&gt;px;font-family:&lt;字体&gt;;&quot;</span>&gt;</span>文字<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>&lt;span</p>
+<p>文字颜色<code>color:&lt;文字颜色&gt;;</code></p>
+<table>
+<thead>
+<tr>
+<th>代码</th>
+<th>效果展示</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>red</code></td>
+<td><span style='color:red;background:;font-size:;font-family:;'>红字字体</span></td>
+</tr>
+<tr>
+<td><code>green</code></td>
+<td><span style='color:green;background:;font-size:;font-family:;'>绿色字体</span></td>
+</tr>
+<tr>
+<td><code>blue</code></td>
+<td><span style='color:blue;background:;font-size:;font-family:;'>蓝色字体</span></td>
+</tr>
+<tr>
+<td><code>White</code></td>
+<td><span style='color:white;background:;font-size:;font-family:;'>白色字体</span></td>
+</tr>
+</tbody></table>
+<p>背景颜色<code>background:&lt;背景颜色&gt;;</code></p>
+<table>
+<thead>
+<tr>
+<th>代码</th>
+<th>效果展示</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>black</code></td>
+<td><span style='color:;background:black;font-size:;font-family:;'>纯黑</span></td>
+</tr>
+<tr>
+<td><code>silver</code></td>
+<td><span style='color:;background:silver;font-size:;font-family:;'>浅灰</span></td>
+</tr>
+<tr>
+<td><code>navy</code></td>
+<td><span style='color:;background:navy;font-size:;font-family:;'>深蓝</span></td>
+</tr>
+<tr>
+<td><code>blue</code></td>
+<td><span style='color:;background:blue;font-size:;font-family:;'>浅蓝</span></td>
+</tr>
+<tr>
+<td><code>green</code></td>
+<td><span style='color:white;background:green;font-size:;font-family:;'>深绿</span></td>
+</tr>
+<tr>
+<td><code>lime</code></td>
+<td><span style='color:;background:lime;font-size:;font-family:;'>浅绿</span></td>
+</tr>
+<tr>
+<td><code>teal</code></td>
+<td><span style='color:white;background:teal;font-size:;font-family:;'>靛青</span></td>
+</tr>
+<tr>
+<td><code>aqua</code></td>
+<td><span style='color:;background:aqua;font-size:;font-family:;'>天蓝</span></td>
+</tr>
+<tr>
+<td><code>maroon</code></td>
+<td><span style='color:;background:maroon;font-size:;font-family:;'>深红</span></td>
+</tr>
+<tr>
+<td><code>red</code></td>
+<td><span style='color:;background:red;font-size:;font-family:;'>大红</span></td>
+</tr>
+<tr>
+<td><code>purple</code></td>
+<td><span style='color:white;background:purple;font-size:;font-family:;'>深紫</span></td>
+</tr>
+<tr>
+<td><code>fuchsia</code></td>
+<td><span style='color:;background:fuchsia;font-size:;font-family:;'>品红</span></td>
+</tr>
+<tr>
+<td><code>olive</code></td>
+<td><span style='color:white;background:olive;font-size:;font-family:;'>褐黄</span></td>
+</tr>
+<tr>
+<td><code>yellow</code></td>
+<td><span style='color:;background:yellow;font-size:;font-family:;'>明黄</span></td>
+</tr>
+<tr>
+<td><code>gray</code></td>
+<td><span style='color:white;background:gray;font-size:;font-family:;'>深灰</span></td>
+</tr>
+<tr>
+<td><code>white</code></td>
+<td><span style='color:;background:white;font-size:;font-family:;'>壳白</span></td>
+</tr>
+</tbody></table>
+<p>字体大小<code>font-size:&lt;文字大小&gt;px;</code></p>
+<table>
+<thead>
+<tr>
+<th>代码</th>
+<th>效果展示</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>10</code></td>
+<td><span style="color:<文字颜色>;background:<背景颜色>;font-size:10px;font-family:<字体>;">文字</span></td>
+</tr>
+<tr>
+<td><code>11</code></td>
+<td><span style="color:<文字颜色>;background:<背景颜色>;font-size:11px;font-family:<字体>;">文字</span></td>
+</tr>
+<tr>
+<td><code>12</code></td>
+<td><span style="color:<文字颜色>;background:<背景颜色>;font-size:12px;font-family:<字体>;">文字</span></td>
+</tr>
+<tr>
+<td><code>13~无限大</code></td>
+<td><span style="color:<文字颜色>;background:<背景颜色>;font-size:100px;font-family:<字体>;">文字</span></td>
+</tr>
+</tbody></table>
+<p>字体格式<code>font-family:&lt;字体&gt;;</code></p>
+<table>
+<thead>
+<tr>
+<th>代码</th>
+<th>效果展示</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>serif</code></td>
+<td><span style='color:;background:;font-size:;font-family:serif;'>衬线字体</span></td>
+</tr>
+<tr>
+<td><code>sans-serif</code></td>
+<td><span style='color:;background:;font-size:;font-family:sans-serif;'>非衬线字体</span></td>
+</tr>
+<tr>
+<td><code>monospace</code></td>
+<td><span style='color:;background:;font-size:;font-family:monospace;'>等宽字体</span></td>
+</tr>
+<tr>
+<td><code> cursive</code></td>
+<td><span style='color:;background:;font-size:;font-family: cursive;'>草书字体</span></td>
+</tr>
+<tr>
+<td><code> fantasy</code></td>
+<td><span style='color:;background:;font-size:;font-family: fantasy;'>虚幻字体</span></td>
+</tr>
+</tbody></table>
+</blockquote>
+<h3 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h3><blockquote>
+<ol>
+<li><p><strong>新建表格</strong><br>手动输入<font color=orange><code>&lt;table&gt;</code></font>按下<kbd>回车</kbd>，语言会自动补全进入HTML语句内；</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">&lt;table&gt;</span><br><span class="line">  </span><br><span class="line">&lt;/table&gt;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>换行<br>在<code>&lt;table&gt;&lt;/table&gt;</code>的表达式内输入<font color=orange><code>&lt;tr&gt;</code></font>按下<kbd>回车</kbd>，自动补;如果在一个换行符号内输入信息，则会字显示一列文本；</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">&lt;table&gt;</span><br><span class="line">  &lt;tr&gt;</span><br><span class="line">    </span><br><span class="line">  &lt;/tr&gt;</span><br><span class="line">&lt;/table&gt;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>框内文本<br>在<code>&lt;tr&gt;&lt;/tr&gt;</code>的表达式内输入<font color=orange><code>&lt;td&gt;</code></font>按下<kbd>回车</kbd>，自动补后在中间输入文本信息；</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">&lt;table&gt;</span><br><span class="line">  &lt;tr&gt;</span><br><span class="line">		&lt;td&gt;框内文本<span class="number">1</span>&lt;/td&gt;</span><br><span class="line">    &lt;td&gt;框内文本<span class="number">2</span>&lt;/td&gt;</span><br><span class="line">  &lt;/tr&gt;</span><br><span class="line">&lt;/table&gt;</span><br></pre></td></tr></table></figure>
+
+<p>效果展示：</p>
+<table>
+  <tr>
+        <td>框内文本1</td>
+    <td>框内文本2</td>
+  </tr>
+</table>
+</li>
+<li><p>合并 行<br><font color=orange>colspan</font>：规定单元格可以横跨的列数（横跨几列）<br>在<code>&lt;tr&gt;&lt;/tr&gt;</code>换行表达式内输入<font color=orange><code>&lt;td colspan=&quot;2&quot;&gt;</code></font>按下<kbd>回车</kbd>，可在跨行框内输入你要的文本<font color=orange><code>=&quot;数字&quot;</code></font>可以表明你想要跨几列，合并2列&#x3D;2，合并3列&#x3D;3…</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">&lt;table&gt;</span><br><span class="line">  &lt;tr&gt;</span><br><span class="line">    &lt;td&gt;列<span class="number">1</span> 文本<span class="number">1</span>&lt;/td&gt;</span><br><span class="line">    &lt;td&gt;列<span class="number">2</span> 文本<span class="number">2</span>&lt;/td&gt;</span><br><span class="line">  &lt;/tr&gt;</span><br><span class="line">  &lt;tr&gt;</span><br><span class="line">    &lt;td colspan=<span class="string">&quot;2&quot;</span>&gt;跨列文本&lt;/td&gt;</span><br><span class="line">  &lt;/tr&gt;</span><br><span class="line">&lt;/table&gt;</span><br></pre></td></tr></table></figure>
+
+<p>效果展示：</p>
+<table>
+  <tr>
+    <td>列1 文本1</td>
+    <td>列2 文本2</td>
+  </tr>
+  <tr>
+    <td colspan="2">跨列文本</td>
+  </tr>
+</table>
+</li>
+<li><p>合并 列<br><font color=orange>rowspan</font>：规定单元格可以纵深的行数（纵深几行）<br>在<code>&lt;tr&gt;&lt;/tr&gt;</code>换行表达式内输入<font color=orange><code>&lt;td rowspan=&quot;2&quot;&gt;</code></font>按下<kbd>回车</kbd>，可在跨行框内输入你要的文本<font color=orange><code>=&quot;数字&quot;</code></font>可以表明你想要跨几行，合并2行&#x3D;2，合并3行&#x3D;3…</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">&lt;table&gt;</span><br><span class="line">  &lt;tr&gt;</span><br><span class="line">    &lt;td&gt;行<span class="number">1</span> 文本<span class="number">1</span>&lt;/td&gt;</span><br><span class="line">    &lt;td&gt;行<span class="number">1</span> 文本<span class="number">2</span>&lt;/td&gt;</span><br><span class="line">  &lt;/tr&gt;</span><br><span class="line">  &lt;tr&gt;</span><br><span class="line">    &lt;td rowspan=<span class="string">&quot;2&quot;</span>&gt;跨行文本&lt;/td&gt;</span><br><span class="line">    &lt;td&gt;行<span class="number">2</span> 文本&lt;/td&gt;</span><br><span class="line">  &lt;/tr&gt;</span><br><span class="line">  &lt;tr&gt;</span><br><span class="line">    &lt;td&gt;行<span class="number">3</span> 文本&lt;/td&gt;</span><br><span class="line">  &lt;/tr&gt;</span><br><span class="line">&lt;/table&gt;</span><br></pre></td></tr></table></figure>
+
+<p>效果展示：</p>
+<table>
+  <tr>
+    <td>行1 文本1</td>
+    <td>行1 文本2</td>
+  </tr>
+  <tr>
+    <td rowspan="2">跨行文本</td>
+    <td>行2 文本</td>
+  </tr>
+  <tr>
+    <td>行3 文本</td>
+  </tr>
+</table>
+</li>
+<li><p>框内换行<br>在<code>&lt;td&gt;&lt;/td&gt;</code>的表达式内输入<font color=orange><code>&lt;br/&gt;</code></font>按下<kbd>回车</kbd>，自动补后在中间输入文本信息；</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">&lt;table&gt;</span><br><span class="line">  &lt;tr&gt;</span><br><span class="line">    &lt;td&gt;文本&lt;/td&gt;</span><br><span class="line">    &lt;td&gt;换行&lt;br/&gt;文本&lt;/td&gt;</span><br><span class="line">  &lt;/tr&gt;</span><br><span class="line">&lt;/table&gt;</span><br></pre></td></tr></table></figure>
+
+<p>效果展示：</p>
+<table>
+  <tr>
+    <td>文本</td>
+    <td>换行<br/>文本</td>
+  </tr>
+</table></li>
+</ol>
+</blockquote>
+]]></content>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/run/16107/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+      <categories>
+        <category>Hello</category>
+      </categories>
+      <tags>
+        <tag>文章</tag>
+        <tag>热门</tag>
+        <tag>教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【我使用的图床】完全免费，图文教程使用cloudflare搭建一个无限空间的私人图床!</title>
+    <url>/run/8277/</url>
+    <content><![CDATA[<h2 id="关于本项目"><a href="#关于本项目" class="headerlink" title="关于本项目"></a>关于本项目</h2><p><a href="https://github.com/MarSeventh/CloudFlare-ImgBed">项目仓库（点击跳转）</a><br><a href="https://github.com/MarSeventh/Sanyue-ImgHub">前端仓库（点击跳转）</a><br><a href="https://sanyue.site/">作者博客（点击跳转）</a><br><a href="https://www.yunsen2025.top/archives/265">我参考的教程（点击跳转）</a><br><a href="https://imgbed.814925.xyz/">我的图床最终效果（点击跳转）</a><br><a href="https://imgbed.814925.xyz/file/1727336717611_funny_minion-wallpaper-1920x1080.jpg">图床速度体验（点击跳转） 看看加载图片的速度能不能瞒住你的需求</a></p>
+<blockquote>
+<p>本项目是 Telegraph-Image 的重制版<br>在找到这个图床项目以前，之前也使用的类似的免费图床。之前的项目应该是基于cloudflare，把图片存储到cloudflare上面，现在那个项目已经无法上传了，但是已经上传的图片还是可以正常使用<br>这个项目的逻辑（本人小白下面是我的理解不知道对不对）</p>
+<ol>
+<li>telegraph 由 telegram 推出的匿名图片托管平台，图片存储在telegram（就是我们平时说的电报）的服务器</li>
+<li>在电报建立一个频道（可以理解是一个群），然后将图片发送到群里，通过一个电报的机器人获取图片的链接。所以可以到这个频道看到上传的所有图片</li>
+<li>玩过电报的都应该知道，电报的服务器在国外，国内无法访问。所以就需要cloudflare的cdn服务来进行访问。</li>
+</ol>
+<p>这个项目为你提供了一个不限容量不限数量的图床 + cdn 服务<br>图片存储在 telegram 的服务器上 cloudflare 提供全球 cdn 服务<br>基于 cloudflare pages 完全免费（现在 page 不限制额度了 和 worker 分开了）<br>支持图片审查 API，可自动屏蔽不良图片（我不会这个变量，或者说我没有这个需求所以无所谓了）<br>可以自定义域名（如果没有域名可以使用cloudflare分配的 *.page.dev 我看网上说这个域名被墙了，在我地区测试是没有问题）<br>最好还是绑定一个自己的域名（这样更加适合装逼）</p>
+</blockquote>
+<h2 id="实操部署"><a href="#实操部署" class="headerlink" title="实操部署"></a>实操部署</h2><h3 id="部署此项目首先需要拥有"><a href="#部署此项目首先需要拥有" class="headerlink" title="部署此项目首先需要拥有"></a>部署此项目首先需要拥有</h3><p>小白教程，记录我自己的部署过程。大佬应该不会看到我的教程哈哈<br><a href="">GitHub 账号（点击跳转）</a><br><a href="">cloudflare 账号（点击跳转）</a><br><a href="">Telegram 账号（点击跳转）</a></p>
+<blockquote>
+<p>关于账号的注册自己网上搜索，我默认已经完成三个账号的注册。</p>
+</blockquote>
+<h3 id="Telegram-配置"><a href="#Telegram-配置" class="headerlink" title="Telegram 配置"></a>Telegram 配置</h3><blockquote>
+<p>注册 telegram 后 包<a href="https://t.me/setlanguage/zh-hans-beta">点此安装官方简体中文语言包</a>点击Apply Language安装中文包。手机版本可能更加好操作（因为telegram默认是英文版本,本人英文基本靠翻译）<br><img src="https://imgbed.814925.xyz/file/1728097307885_202410051101953.png"><br>在电报需要获取TG_BOT_TOKEN和TG_CHAT_ID这两个值 后续使用（必须的！！）</p>
+<ol>
+<li>获取TG_BOT_TOKEN<ul>
+<li>搜索 “@BotFather” 注意看文字和图标不要点错了！我开始就在这一步翻车了！<br> <img src="https://imgbed.814925.xyz/file/1728097535530_202410051105460.png"><br> 点击开始<br> <img src="https://imgbed.814925.xyz/file/1728097770279_202410051109301.png"><br> a发送&#x2F;newbot 新建机器人<br> b.给机器人起一个名字我这里用的imgbed(自己喜欢都可以的)<br> c.给机器人起一个用户名结尾必须是_bot（我这里第一次使用imgbed_bot就提示重复了，就需要换一个名字imgbedrun_bot这个也是你自己喜欢）这个名字我觉得无所谓的后期基本不会使用的<br> <img src="https://imgbed.814925.xyz/file/1728098695270_image.png" alt="image.png"><br> Use this token to access the HTTP API:下面这一串就是TG_BOT_TOKEN等一下需要使用</li>
+</ul>
+</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="2">
+<li>新增频道增加机器人获取 TG_CHAT_ID（频道 ID）<ol>
+<li>在 telegram 中 打开左侧的菜单（三道杠） 打开新建频道 注意是频道不是群组 名字根据自己喜欢来 我这里就叫在imgbed 然后跳过<br> <img src="https://imgbed.814925.xyz/file/1728100214806_image.png" alt="image.png"></li>
+<li>进入创建的imgbed频道，点击三个点管理频道<br> <img src="https://imgbed.814925.xyz/file/1728100382610_image.png" alt="image.png"><br> 3.菜单中点击 “添加管理员”将刚才创建的机器人也设为管理员（注意搜索 @刚才设置的用户名 前面设置的机器人用户名是@imgbedrun_bot别填加错了 你填写你自己的哈 不要写我的哈）然后保存默认权限保存<br> <img src="https://imgbed.814925.xyz/file/1728101175115_image.png" alt="image.png"><br> 4.搜索@VersaToolsBot点击开始<br> <img src="https://imgbed.814925.xyz/file/1728101771214_image.png" alt="image.png"><br> 5.回到建立的频道imgbed 随便发一条消息然后转发这条消息给@VersaToolsBot<br> <img src="https://imgbed.814925.xyz/file/1728101844431_image.png" alt="image.png"><br> 点击 发送<br> <img src="https://imgbed.814925.xyz/file/1728101939890_image.png" alt="image.png"><br> 回到 VersaToolsBot机器人界面找到频道的ID<br> <img src="https://imgbed.814925.xyz/file/1728102055860_image.png" alt="image.png"><br> 注意频道ID”-1002430……”前面的-也要一起复制<br>保留好TG_BOT_TOKEN和TG_CHAT_ID</li>
+</ol>
+</li>
+</ol>
+</blockquote>
+<h3 id="github配置"><a href="#github配置" class="headerlink" title="github配置"></a>github配置</h3><blockquote>
+<p>首先打开<a href="https://github.com/MarSeventh/CloudFlare-ImgBed">该项目仓库（点击跳转）</a>点击 “Fork”（如果你认可此项目 可以点击旁边的 starts 以支持作者）<br><img src="https://imgbed.814925.xyz/file/1728107283415_image.png" alt="image.png"><br>此页面不用动任何设置 点击 “Create fork”<br><img src="https://imgbed.814925.xyz/file/1728107403248_image.png" alt="image.png"><br>注意！！！如果你之前部署过此项目，现在一定要更新一下最新版本<br><img src="https://imgbed.814925.xyz/file/1728108354825_image.png" alt="image.png"></p>
+</blockquote>
+<h3 id="cloudflare-配置"><a href="#cloudflare-配置" class="headerlink" title="cloudflare 配置"></a>cloudflare 配置</h3><blockquote>
+<ol>
+<li>cloudflare部署Pages项目<br> cloudflare 登录你的账号并打开仪表盘 点击侧边栏中的 “Workers 和 Pages”点击上方的 “创建”<br> <img src="https://imgbed.814925.xyz/file/1728107779705_image.png" alt="image.png"><br> 选到 Pages 一栏，点击 连接到 Git<br> <img src="https://imgbed.814925.xyz/file/1728107903689_image.png" alt="image.png"><br> 在打开的第一个页面 点击 “连接到 GitHub” 随后会跳转到 GitHub 进行授权 选到 “All repositories”（默认即可）完成授权后会回到 cloudflare 的选择存储库的界面（如下图），选择刚才 fork 的仓库后点击 “开始设置”<br> <img src="https://imgbed.814925.xyz/file/1728108027549_image.png" alt="image.png"><br> <img src="https://imgbed.814925.xyz/file/1728108429526_image.png" alt="image.png"><br> 直接保持并部署即可（如果没有域名想要用pages.dev自带的这个域名，项目名称这里可以修改一下自己喜欢的名字 我这里就修改为imgbed  (自动分配的域名就是 imgbed-enm.pages.dev)<br> <img src="https://imgbed.814925.xyz/file/1728108941894_image.png" alt="image.png"><br> 出现下图即部署完成，点击 “继续处理项目”<br> <img src="https://imgbed.814925.xyz/file/1728109168285_image.png" alt="image.png"><br> 点击 “自定义域” 添加一个你自己的域名（我只会托管到 cf 中的域名。没有托管cf域名网上有教程好像比较麻烦我也不会）<br> 我这里就用img作为二级域名来访问，如果托管cf的直接就好了<br> <img src="https://imgbed.814925.xyz/file/1728109868863_image.png" alt="image.png"><br> <img src="https://imgbed.814925.xyz/file/1728110013942_image.png" alt="image.png"></li>
+<li>绑定KV数据库(其实我不明白这一步的用途，以前的项目创建这个KV空间库用来储存图片，这个我不明白了，不管了反正跟着教程抄就完了)<br> 点击左侧栏中的 KV（在 Workers 和 Pages 菜单下）点击 创建命名空间 名称为 imgbed 点击 添加<br> <img src="https://imgbed.814925.xyz/file/1728110341339_image.png" alt="image.png"><br> 完成添加后 回到 pages 的界面 imgbed项目  点击 设置 后点击 变量与机密<br> <img src="https://imgbed.814925.xyz/file/1728110852979_image.png" alt="image.png"><br> 点击 绑定 添加<br> <img src="https://imgbed.814925.xyz/file/1728110962863_image.png" alt="image.png"><br> 变量名称 填写 img_url(这里的变量名称必须是img_url不可以自己乱写)  KV 命名空间 选择刚才<br> <img src="https://imgbed.814925.xyz/file/1728111087387_image.png" alt="image.png"><br> 创建的 KV imgbed 完成后点击保存<br> <img src="https://imgbed.814925.xyz/file/1728111267290_image.png" alt="image.png"></li>
+</ol>
+</blockquote>
+<h3 id="添加-环境变量"><a href="#添加-环境变量" class="headerlink" title="添加 环境变量"></a>添加 环境变量</h3><blockquote>
+<p>常用用环境变量可以添加 如下表(全部变量参考项目说明)</p>
+<table>
+<thead>
+<tr>
+<th align="center">变量名称</th>
+<th align="center">用途</th>
+<th align="center">推荐说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">TG_CHAT_ID</td>
+<td align="center">telegram 频道 ID</td>
+<td align="center">必须</td>
+</tr>
+<tr>
+<td align="center">TG_BOT_TOKEN</td>
+<td align="center">telegram 机器人 token</td>
+<td align="center">必须</td>
+</tr>
+<tr>
+<td align="center">BASIC_USER</td>
+<td align="center">后台管理员用户名</td>
+<td align="center">登录后台管理查看图片</td>
+</tr>
+<tr>
+<td align="center">BASIC_PASS</td>
+<td align="center">后台管理密码</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">AUTH_CODE</td>
+<td align="center">前台的认证码</td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<p>只要有这些变量就可以正常使用了 图片审查 api 访问域名限制这些我用不到就没有去设置了<br>    <img src="https://imgbed.814925.xyz/file/1728112792031_image.png" alt="image.png"></p>
+</blockquote>
+<pre><code>然后重新部署（所有关于环境变量和 kv 绑定的修改都要重新部署一遍）
+选到 部署 一栏 最新的部署（就是最上面的那一个），鼠标点击在右侧三个点 在弹出的菜单中选择 重新部署
+</code></pre>
+<p>   <img src="https://imgbed.814925.xyz/file/1728112937378_image.png" alt="image.png"><br>    重新部署后，打开自己绑定的域名或者cf给的域名打开网页，随便上传一张图片测试一下<br>   <img src="https://imgbed.814925.xyz/file/1728113245213_image.png" alt="image.png"><br>   上传成功的同时电报频道也会收到消息，可以将频道改为免打扰。复制一下图片的URL测试一下访问速度。<br>   <img src="https://imgbed.814925.xyz/file/1728113369273_image.png" alt="image.png"></p>
+<h3 id="添加-美化变量"><a href="#添加-美化变量" class="headerlink" title="添加 美化变量"></a>添加 美化变量</h3><p>页面自定义DIY环境变量增加USER_CONFIG，JSON格式，具体字段用途及内容规范见下表。</p>
+<table>
+<thead>
+<tr>
+<th align="center">字段名</th>
+<th align="center">用途</th>
+<th align="center">类型</th>
+<th align="center">内容规范</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">loginBkImg</td>
+<td align="center">自定义登录页面背景</td>
+<td align="center">列表&#x2F;字符串</td>
+<td align="center">1、当字段类型为列表时，列表中元素为需要添加到轮播列表中的图片链接（列表中只有一张图时即为固定背景），形如[“1.jpg”,”2.jpg”]2、当字段类型为字符串时，目前仅支持字符串值为bing，设置为该值时启用bing随机图片轮播模式。</td>
+</tr>
+<tr>
+<td align="center">uploadBkImg</td>
+<td align="center">自定义上传页面背景</td>
+<td align="center">列表&#x2F;字符串</td>
+<td align="center">同上</td>
+</tr>
+<tr>
+<td align="center">bkInterval</td>
+<td align="center">轮播背景切换时间间隔</td>
+<td align="center">正整数</td>
+<td align="center">设置为背景图的轮播时间，默认3000，单位ms。例如你希望10s切换一次，设置为10000即可。</td>
+</tr>
+<tr>
+<td align="center">bkOpacity</td>
+<td align="center">背景图透明度</td>
+<td align="center">(0,1]的浮点数</td>
+<td align="center">展示的背景图透明度，默认为1。如果你觉得显示效果不佳，可以自定义，如0.8</td>
+</tr>
+<tr>
+<td align="center">ownerName</td>
+<td align="center">页内图床名称</td>
+<td align="center">字符串</td>
+<td align="center">只支持字符串类型，设置为你自定义的图床名称（默认为Sanyue）</td>
+</tr>
+<tr>
+<td align="center">logoUrl</td>
+<td align="center">页内图床Logo</td>
+<td align="center">字符串</td>
+<td align="center">只支持字符串类型，设置为你自定义的图床Logo链接</td>
+</tr>
+<tr>
+<td align="center">siteTitle</td>
+<td align="center">网站标题</td>
+<td align="center">字符串</td>
+<td align="center">只支持字符串类型，设置为你自定义的网站标题</td>
+</tr>
+<tr>
+<td align="center">siteIcon</td>
+<td align="center">网站图标</td>
+<td align="center">字符串</td>
+<td align="center">只支持字符串类型，设置为你自定义的网站图标链接</td>
+</tr>
+</tbody></table>
+<p> <img src="https://imgbed.814925.xyz/file/1728113641842_image.png" alt="image.png"><br>下面是我用的，可以更具需要自己进行复制修改</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">&quot;uploadBkImg&quot;: [&quot;https://imgbed.814925.xyz/file/1727336719764_spongebob_and_gary_snail-wallpaper-1920x1080.jpg&quot;,&quot;https://imgbed.814925.xyz/file/1727336723041_cat_sunset-wallpaper-1920x1080.jpg&quot;,&quot;https://imgbed.814925.xyz/file/1727336712385_spacecat-wallpaper-1920x1080.jpg&quot;],</span><br><span class="line">&quot;loginBkImg&quot;:[&quot;https://imgbed.814925.xyz/file/1727336719764_spongebob_and_gary_snail-wallpaper-1920x1080.jpg&quot;,&quot;https://imgbed.814925.xyz/file/1727336723041_cat_sunset-wallpaper-1920x1080.jpg&quot;,&quot;https://imgbed.814925.xyz/file/1727336712385_spacecat-wallpaper-1920x1080.jpg&quot;],</span><br><span class="line">&quot;ownerName&quot;: &quot;Wangrun&#x27;s&quot;,</span><br><span class="line">&quot;bkInterval&quot;: &quot;10000&quot;,</span><br><span class="line">&quot;siteTitle&quot;: &quot;Wangrun&#x27;s-imgdeb&quot;,</span><br><span class="line">&quot;siteIcon&quot;: &quot;https://imgbed.814925.xyz/file/1728092737975_%E9%80%8F%E6%98%8E.png&quot;,</span><br><span class="line">&quot;logoUrl&quot;: &quot;https://imgbed.814925.xyz/file/1728092737975_%E9%80%8F%E6%98%8E.png&quot;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><font color="blue">自定义登录页面背景我改了没有反应不知道哪里错了</font></p>
+<h2 id="我遇到的问题"><a href="#我遇到的问题" class="headerlink" title="我遇到的问题"></a>我遇到的问题</h2><ul>
+<li><input checked="" disabled="" type="checkbox"> <ol>
+<li>上传透明背景图片PNG背景变成白色。目前作者已经更新压缩设置按钮可以进行开启或者关闭<br><img src="https://imgbed.814925.xyz/file/1728118879634_image.png" alt="image.png"><blockquote>
+<p>目前图片压缩设置项分为客户端压缩和服务端压缩两项，前者仅支持在web端上传时使用。<br> 以下是对该设置的几点说明：<br> 1.本设置仅针对图片文件，单位为MB<br> 2.客户端压缩指上传前压缩，服务端压缩指Telegram端压缩<br> 3.若图片大小&gt;10MB，或压缩后图片大小&gt;10MB，服务端压缩将自动失效<br> 4.若图片大小&gt;20MB，将自动进行客户端压缩<br> 5.若想要存储的图片和原图完全一致，可以将两个压缩设置均设置为关闭<br> 6.若上传分辨率过大图片，或透明背景图片，建议关闭服务端压缩，否则可能出现上传失败、背景变白等问题</p>
+</blockquote>
+</li>
+</ol>
+</li>
+<li><input disabled="" type="checkbox"> 2.点击头像和名字跳转的的作者的github仓库地址，希望可以加入变量进行修改。这里没有不尊重原作者的意思</li>
+<li><input disabled="" type="checkbox"> 3.底部的Designed by SanyueQi for You!（叁月柒设计）跳转的作者博客。希望可以在底部右边在加一个按钮来进行自定义跳转，比如跳转回我的博客。这里没有不尊重原作者的意思</li>
+<li><input disabled="" type="checkbox"> 4.佬能加个添加文件夹功能，方便管理图片</li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
+    <title>这是一篇新文章</title>
+    <url>/run/29809/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+</search>
